@@ -6,21 +6,21 @@
         {
             
             Console.WriteLine("Įveskite skaičių:");
-            int number = Convert.ToInt32(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
 
             
             for (int i = 1; i <= 10; i++)
             {
-                int result = number * i;
+                int r = n * i;
 
                 
-                if (result > 50)
+                if (r > 50)
                 {
                     break;
                 }
 
                 
-                Console.WriteLine($"{number} x {i} = {result}");
+                Console.WriteLine($"{n} x {i} = {r}");
             }
         }
     }

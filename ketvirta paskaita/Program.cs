@@ -10,14 +10,14 @@ namespace ketvirtapskaita
             for (int i = 0; i < 5; i++)
             {
                 Console.Write("Įveskite skaičių: ");
-                int number = Convert.ToInt32(Console.ReadLine());
+                int n = Convert.ToInt32(Console.ReadLine());
 
                 
-                if (number > 0)
+                if (n > 0)
                 {
                     Console.WriteLine("Teigiamas");
                 }
-                else if (number < 0)
+                else if (n < 0)
                 {
                     Console.WriteLine("Neigiamas");
                 }
